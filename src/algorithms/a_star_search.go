@@ -13,7 +13,7 @@ import (
 - Time: O(N) average/worst case.
 - Space: O(N^2) as the PQ get 'bloated' due to laziness.
 */
-func main() {
+func astarSearch() {
 	astar := &Astar{}
 	mat := [][]int{
 		{0, 0, 0},
